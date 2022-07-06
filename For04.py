@@ -9,6 +9,6 @@ def main(A,B):
     """
     x = []
     for i in range(A, B+1):
-        x,append(i)
+        x.append(i)
     return x
 print(main(2,5))
