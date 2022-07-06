@@ -9,6 +9,6 @@ def main(N):
     a = 0
     for i in range(N):
         if i%2!=0:
-           a+=1
+           a+=i
     return a
-print(main(5))
+print(main(6))
